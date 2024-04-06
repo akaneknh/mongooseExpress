@@ -4,7 +4,7 @@ const path = require('path');
 const mongoose = require('mongoose');
 const methodOverride = require('method-override')
 const Product = require('./models/product')
-
+app.use(express.static("public")); 
 mongoose.connect('mongodb://127.0.0.1:27017/farmStand')
   .then(() => {
     console.log("Mongo conecction open!")
