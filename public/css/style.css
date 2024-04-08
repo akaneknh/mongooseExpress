@@ -25,3 +25,11 @@ body {
   justify-content: end;
   padding: .5em;
 }
+
+form {
+  margin: 30px;
+}
+
+.label {
+  padding-top: 1em;
+}
