@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  justify-content: center;
+
+}
+
+.panel {
+  margin-top: 3em;
+  width: 30em;
+}
+
+.panel-heading {
+  text-align: center;
+  padding: 30px;
+  height: 200px;
+  background-image: url("./all.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 25%;
+  background-size: cover;
+}
+
+.add_new {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  padding: .5em;
+}

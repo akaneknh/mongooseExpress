@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+  <article class="panel is-primary" >
+    <div class="panel-heading">
+      <%=category%>
+    </div>
+    <p class="panel-tabs">
+      <a class="is-active" href="/products">All</a>
+      <a href="/products?category=dairy">Dairy</a>
+      <a href="/products?category=vegetable">Vegetable</a>
+      <a href="/products?category=fruit">fruit</a>
+    </p>
+    <div class="add_new">
+      <a class="button is-success " href="/products/new">
+        Add New
+      </a>
+    </div>
+
+
+    <% for(let product of products) { %>
+      <a class="panel-block is-active" href="/products/<%=product._id%>">
+        <%= product.name %>
+      </a>
+      <% }%>
+
+
+
+  </article>
+
+
+</body>
+
+</html>

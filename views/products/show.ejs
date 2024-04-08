@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= product.name %></title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <h1><%= product.name %></h1>
+  <ul>
+    <li>Price: $<%= product.price %></li>
+    <li>Category: <a href="/products?category=<%= product.category %>"><%= product.category%></a></li>
+  </ul>
+  <a href="/products">All products</a><br>
+  <a href="/products/<%=product._id%>/edit">Edit Product</a>
+  <form action="/products/<%=product._id%>?_method=DELETE" method="POST">
+  <button>Delete</button>
+  </form>
+ 
+</body>
+</html>
