@@ -19,17 +19,38 @@ body {
   background-size: cover;
 }
 
-.add_new {
+.btn-wrap {
   width: 100%;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   padding: .5em;
 }
 
-form {
+.add-new-form {
   margin: 30px;
 }
 
 .label {
   padding-top: 1em;
+}
+.edit-delete {
+display: flex;
+flex-direction: row;
+}
+.btn-bottom-wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.button.is-link {
+  margin: .5em;
+}
+
+.btn-wrap-all {
+  margin: .5em;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }

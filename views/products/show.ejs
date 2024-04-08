@@ -1,23 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><%= product.name %></title>
+  <title>
+    <%= product.name %>
+  </title>
+ 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
   <link rel="stylesheet" href="/css/style.css">
 </head>
+
 <body>
-  <h1><%= product.name %></h1>
-  <ul>
-    <li>Price: $<%= product.price %></li>
-    <li>Category: <a href="/products?category=<%= product.category %>"><%= product.category%></a></li>
-  </ul>
-  <a href="/products">All products</a><br>
-  <a href="/products/<%=product._id%>/edit">Edit Product</a>
-  <form action="/products/<%=product._id%>?_method=DELETE" method="POST">
-  <button>Delete</button>
-  </form>
- 
+  <article class="panel is-primary">
+    <div class="panel-heading">
+      <%= product.name %>
+    </div>
+
+    <div class="panel-block">
+      <p>Price: $<%= product.price %>
+      </p>
+    </div>
+    <div class="panel-block">
+      <p>Category: <span class="tag"><a href="/products?category=<%= product.category %>">
+            <%= product.category%>
+          </a></span></p>
+    </div>
+
+    <div class="btn-bottom-wrap">
+      <div class="btn-wrap-all">
+        <a href="/products" class="button is-ghost">All products</a>
+      </div>
+      <div class="edit-delete">
+        <div class="btn-wrap">
+          <a class="button is-success is-light" href="/products/<%=product._id%>/edit">Edit</a>
+        </div>
+        <div class="btn-wrap">
+          <form action="/products/<%=product._id%>?_method=DELETE" method="POST">
+            <button class="button is-danger is-light">Delete</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+  </article>
+
+
+
+
+
 </body>
+
 </html>

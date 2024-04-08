@@ -10,45 +10,46 @@
 </head>
 
 <body>
-  <article class="panel is-primary" >
+  <article class="panel is-primary">
     <div class="panel-heading">
-     Add A product
+      Add A product
     </div>
-    <form action="/products" method="POST">
-      
+    <form action="/products" method="POST" class="add-new-form">
+
       <div class="field">
-      <label for="name" class="label">Product Name</label>
-      <input type="text" id="name" name="name" placeholder="product name" class="input">
+        <label for="name" class="label">Product Name</label>
+        <input type="text" id="name" name="name" placeholder="product name" class="input">
       </div>
-    </div>
+      </div>
       <label for="price" class="label">Price (Unit)</label>
       <input type="number" id="price" name="price" placeholder="Price" class="input">
-  
 
 
-    <div class="field">
-      <label for="category" class="label">Select Category</label>
-      <div class="control">
-        <div class="select">
-          <select name="category" id="category" class="select">
-            <% for (let category of categories) {%>
-              <option value="<%=category%>">
-                <%=category%>
-              </option>
-              <% } %>
-          </select>
+
+      <div class="field">
+        <label for="category" class="label">Select Category</label>
+        <div class="control">
+          <div class="select">
+            <select name="category" id="category" class="select">
+              <% for (let category of categories) {%>
+                <option value="<%=category%>">
+                  <%=category%>
+                </option>
+                <% } %>
+            </select>
+          </div>
         </div>
       </div>
-    </div>
 
 
 
-
-      <button class="button is-link">Submit</button>
-      <a href="/products" class="button is-link is-light">Cancel</a>
+      <div class="btn-wrap">
+        <button class="button is-link">Submit</button>
+        <a href="/products" class="button is-link is-light">Cancel</a>
+      </div>
     </form>
- 
-   
+
+
   </article>
 
 
