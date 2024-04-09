@@ -1,9 +1,9 @@
 <h1>Shopping List</h1>
 <p>A CRUD shopping list App</p>
 <img src="./public/img/1.png" style="width:400px">
-<img src="./public/img/.png" style="width:400px">
-<img src="./public/img/.png" style="width:400px">
-<img src="./public/img/.png" style="width:400px">
+<img src="./public/img/2.png" style="width:400px">
+<img src="./public/img/3.png" style="width:400px">
+<img src="./public/img/4.png" style="width:400px">
 <h2>Build with</h2>
 <h4>Database</h4>
 MongoDB
