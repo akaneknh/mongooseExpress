@@ -9,11 +9,12 @@
   <link rel="stylesheet" href="/css/style.css">
 </head>
 
-
 <body>
   <article class="panel is-primary">
-    <div class="panel-heading">
-      Add new product
+    <div class="index-img-add">
+      <div class="title is-size-3 has-text-centered is-capitalized has-text-white-ter has-text-weight-bold">
+        <span>Add a product</span>
+      </div>
     </div>
     <form action="/products" method="POST" class="add-new-form">
 
@@ -26,15 +27,14 @@
       <input type="number" id="price" name="price" placeholder="Price" class="input">
 
 
-
       <div class="field">
         <label for="category" class="label">Select Category</label>
         <div class="control">
           <div class="select">
-            <select name="category" id="category" class="select">
+            <select name="category" id="category" class="select is-capitalized">
               <% for (let category of categories) {%>
                 <option value="<%=category%>">
-                  <%=category.charAt(0).toUpperCase() + category.slice(1)%>
+                  <%=category%>
                 </option>
                 <% } %>
             </select>

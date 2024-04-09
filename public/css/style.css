@@ -9,13 +9,54 @@ body {
   width: 30em;
 }
 
-.panel-heading {
+
+.title {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.index-img-All {
   text-align: center;
   padding: 30px;
   height: 200px;
-  background-image: url("./all.jpg");
+  background-image: url("../img/index.png");
   background-repeat: no-repeat;
-  background-position: 50% 25%;
+  background-position: 50%;
+  background-size: cover;
+}
+
+.index-img-dairy {
+  padding: 30px;
+  height: 200px;
+  background-image: url("../img/dairy.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.index-img-vegetable {
+  padding: 30px;
+  height: 200px;
+  background-image: url("../img/veg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.index-img-fruit {
+  padding: 30px;
+  height: 200px;
+  background-image: url("../img/fruit.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.index-img-add {
+  padding: 30px;
+  height: 200px;
+  background-image: url("../img/add.png");
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -33,16 +74,19 @@ body {
 .label {
   padding-top: 1em;
 }
+
 .edit-delete {
-display: flex;
-flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
+
 .btn-bottom-wrap {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
 }
+
 .button.is-link {
   margin: .5em;
 }

@@ -12,10 +12,12 @@
 <body>
 
   <article class="panel is-primary">
-    <div class="panel-heading">
-      <%=category.charAt(0).toUpperCase() + category.slice(1)%>
+    <div class="index-img-<%=category%>">
+    <div class="title is-size-3 has-text-centered is-capitalized has-text-white-ter has-text-weight-bold">
+      <span><%=category%> products</span>
     </div>
-    <p class="panel-tabs">
+  </div>
+    <p class="panel-tabs has-text-weight-semibold">
       <a href="/products">All</a>
       <a href="/products?category=dairy">Dairy</a>
       <a href="/products?category=vegetable">Vegetable</a>
