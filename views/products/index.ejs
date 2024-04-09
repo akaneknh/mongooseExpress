@@ -13,13 +13,13 @@
 
   <article class="panel is-primary" >
     <div class="panel-heading">
-      <%=category%>
+      <%=category.charAt(0).toUpperCase() + category.slice(1)%>
     </div>
     <p class="panel-tabs">
       <a href="/products">All</a>
       <a href="/products?category=dairy">Dairy</a>
       <a href="/products?category=vegetable">Vegetable</a>
-      <a href="/products?category=fruit">fruit</a>
+      <a href="/products?category=fruit">Fruit</a>
     </p>
     <div class="btn-wrap">
       <a class="button is-link is-rounded" href="/products/new">

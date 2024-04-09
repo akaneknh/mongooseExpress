@@ -12,7 +12,7 @@
 <body>
   <article class="panel is-primary">
     <div class="panel-heading">
-      Add A product
+      Add new product
     </div>
     <form action="/products" method="POST" class="add-new-form">
 
@@ -33,7 +33,7 @@
             <select name="category" id="category" class="select">
               <% for (let category of categories) {%>
                 <option value="<%=category%>">
-                  <%=category%>
+                  <%=category.charAt(0).toUpperCase() + category.slice(1)%>
                 </option>
                 <% } %>
             </select>

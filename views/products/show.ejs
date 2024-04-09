@@ -24,7 +24,7 @@
     </div>
     <div class="panel-block">
       <p>Category: <span class="tag"><a href="/products?category=<%= product.category %>">
-            <%= product.category%>
+            <%= product.category.charAt(0).toUpperCase() + product.category.slice(1)%>
           </a></span></p>
     </div>
 
