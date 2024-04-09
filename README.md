@@ -1,8 +1,12 @@
 <h1>Shopping List</h1>
 <p>A CRUD shopping list App</p>
+<h3>Read All lists</h3>
 <img src="./public/img/1.png" style="width:400px">
+<h3>Sort by category</h3>
 <img src="./public/img/2.png" style="width:400px">
+<h3>Create a new product</h3>
 <img src="./public/img/3.png" style="width:400px">
+<h3>Edit and Delete a product</h3>
 <img src="./public/img/4.png" style="width:400px">
 <h2>Build with</h2>
 <h4>Database</h4>
