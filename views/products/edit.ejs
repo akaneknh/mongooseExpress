@@ -28,7 +28,7 @@
           <div class="select">
             <select name="category" id="category" class="select">
               <% for (let category of categories) {%>
-                <option value="<%=category%>" <%=product.category===category ? 'selected' :'' %>><%=category%>
+                <option value="<%=category%>" <%=product.category===category ? 'selected' :'' %>><%=category.charAt(0).toUpperCase() + category.slice(1)%>
                 </option>
                 <% } %>
             </select>

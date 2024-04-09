@@ -1,6 +1,5 @@
 <h1>Shopping List</h1>
 <p>A CRUD shopping list App</p>
-
 <h2>Build with</h2>
 <h4>Database</h4>
 MongoDB
