@@ -7,7 +7,7 @@
   <title>
     <%= product.name %>
   </title>
- 
+
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
   <link rel="stylesheet" href="/css/style.css">
 </head>
@@ -16,10 +16,9 @@
   <article class="panel is-primary">
     <div class="index-img-<%=product.category%>">
       <div class="title is-size-3 has-text-centered is-capitalized has-text-white-ter has-text-weight-bold">
-      <%= product.name %>
+        <%= product.name %>
+      </div>
     </div>
-    </div>
-   
     <div class="panel-block">
       <p>Price: $<%= product.price %>
       </p>
