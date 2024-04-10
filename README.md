@@ -6,7 +6,7 @@
 <h3>Database</h3>
 MongoDB
 <h3>Backend</h3>
-node.js, express
+node.js, express, Mongoose
 <h3>Frontend</h3>
 EJS, Bulma CSS
 <h2>Getting started</h2>
