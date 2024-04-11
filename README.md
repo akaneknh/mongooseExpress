@@ -1,6 +1,7 @@
 <h1>Shopping List</h1>
 <p>This is a CRUD shopping list App using mongoDB</p>
-<img src="https://github.com/akaneknh/mongooseExpress/assets/105612200/bcc31024-6d00-47f0-85a4-ad7be693a9c1" style="width:500px">
+<img src="https://github.com/akaneknh/mongooseExpress/assets/105612200/dda24230-a44d-40d6-a475-39991fcbc85e" style="width:500px">
+
 
 <h2>Build with</h2>
 <h3>Database</h3>
@@ -13,3 +14,4 @@ EJS, Bulma CSS
 To run the project, type from a terminal:<br>
 <code>node index.js</code><br>
 And open <a href="http://localhost:3000/products">http://localhost:3000/products</a> to view it in the browser.
+
