@@ -10,8 +10,8 @@ MongoDB
 node.js, express, Mongoose
 <h3>Frontend</h3>
 EJS, Bulma CSS
-<h2>Getting started</h2>
+<!-- <h2>Getting started</h2>
 To run the project, type from a terminal:<br>
 <code>node index.js</code><br>
-And open <a href="http://localhost:3000/products">http://localhost:3000/products</a> to view it in the browser.
+And open <a href="http://localhost:3000/products">http://localhost:3000/products</a> to view it in the browser. -->
 
