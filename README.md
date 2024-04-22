@@ -1,5 +1,5 @@
 <h1>Shopping List</h1>
-<p>This is a CRUD shopping list App using mongoDB</p>
+<p>This is a CRUD shopping list App using mongoDB.</p>
 <img src="https://github.com/akaneknh/mongooseExpress/assets/105612200/dda24230-a44d-40d6-a475-39991fcbc85e" style="width:500px">
 
 
